@@ -1,0 +1,185 @@
+body{
+	background-color:#fff;
+	font-family: 'Noto Sans', sans-serif;
+	/*background-image:url('../images/zoho_template.png');*/
+	background-repeat:no-repeat;
+	margin:0 auto;
+	background-position:top center;
+	min-height:7593px;
+	padding:20px;
+}
+#font-color{
+	color:red;
+}
+.flex-header{
+	display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+    font-size: 20px;
+    font-weight: bold;
+	text-decoration:none;
+}
+
+.flex-header-left{
+	width:50%;
+	
+}
+
+.flex-header-left img{
+	width:100px;
+}
+.flex-header-right{
+	width:50%;
+	text-align:right;
+}
+
+.nav-bars{
+		margin-left: -53px;
+}
+.nav-bars a{
+	text-decoration:none;
+	padding: 0 38px;
+}
+.nav-bars a .font-color{
+	color:#df213d;
+}
+.web-content{
+	padding-top: 40px;
+}
+.introduction{
+	text-align:center;
+}
+
+.introduction h2{
+	text-align: center;
+    font-size: 47px;
+}
+
+.introduction h3{
+	text-align:center;
+	font-size: 24px;
+}
+
+.f-container{
+	display:flex;
+}
+
+.f-container .f-container-left{
+	width:50%;
+	height: 445px;
+	background: linear-gradient(45deg, #bbdcf9, transparent);
+}
+
+.f-container .f-container-right{
+	display:flex;
+	flex-wrap:wrap;
+	height: 445px;
+	width:50%;
+	
+}
+
+.f-container .box-50{
+	
+	width:50%;
+
+	box-sizing: border-box;
+
+}
+.card-product-crm{
+	display:flex;
+}
+.f-item .card-product{
+	display:flex;
+	padding: 14px 4px;
+}
+
+.card-left{
+	width:30%;
+	text-align: center;
+}
+
+.card-left img{
+	width: 90px;
+    height: 90px;
+}
+.card-right{
+	width:70%
+}
+.card-right a{
+    color: #03b1f8;
+    font-weight: bold;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 13px;
+    border: 1px solid #03b1f8;
+}
+.card-left-crm{
+	text-align: center;
+    padding-top: 43px;
+	width:28%;
+}
+
+.card-left-crm img{
+	width: 113px;
+    height: 100px;
+    margin-left: -32px;
+	
+	
+}
+
+.card-product-crm{
+	padding-top: 94px;
+}
+.card-right-crm{
+	width:72%;
+	
+}
+
+.card-right-crm h3{
+	    font-size: 31px;
+		
+		
+}
+
+.card-right-crm h5{
+	font-size: 18px;
+    font-weight: normal;
+    line-height: 24.5px;
+		
+}
+.card-right-crm a{
+    color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 14px 35px;
+    border: 1px solid #f0483e;
+	background-color:#f0483e;
+	
+}
+.f-wrapper{
+	
+}
+
+.card-right h3{
+	    font-size: 25px;
+		
+}
+
+.card-right h5{
+	font-size: 17px;
+    font-weight: normal;
+    line-height: 24.5px;
+		
+}
+.section-title{
+	
+	text-align:center;
+	padding-top: 110px;
+	font-weight:bold;
+    padding-bottom: 46px;
+}
+
+.f-container.f-container-right .box-left{
+	border: solid 5px #f0483e;
+}
