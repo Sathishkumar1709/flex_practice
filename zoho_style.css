@@ -1,3 +1,5 @@
+
+
 body{
 	background-color:#fff;
 	font-family: 'Noto Sans', sans-serif;
@@ -5,7 +7,7 @@ body{
 	background-repeat:no-repeat;
 	margin:0 auto;
 	background-position:top center;
-	min-height:7593px;
+	min-height:593px;
 	padding:20px;
 }
 #font-color{
@@ -13,11 +15,13 @@ body{
 }
 .flex-header{
 	display: flex;
+	width:100%
     justify-content: space-between;
     padding-top: 12px;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: bold;
 	text-decoration:none;
+	
 }
 
 .flex-header-left{
@@ -182,4 +186,45 @@ body{
 
 .f-container.f-container-right .box-left{
 	border: solid 5px #f0483e;
+}
+footer{
+	background-color:#333;
+	color:#fff;
+	padding-top:35px;
+	height:400px;
+	margin-top: 50px;
+}
+
+footer .f-container{
+	
+	justify-content:space-evenly;
+	padding-top:5px;
+	
+}
+
+footer h5{
+	font-weight:normal;
+}
+
+.search-box{
+	text-align:center;
+	padding-top: 40px;
+}
+.search-box input{
+	
+	border:1px solid #fff;
+	height:35px;
+	width:800px;
+	background-color:#333;
+}
+.material-symbols-outlined{
+	position: absolute;
+    padding-top: 5px;
+    right: 344px;
+}
+.icon{
+	position: absolute;
+    padding-top: 5px;
+    right: 131px;
+    top: 28px;
 }
