@@ -3,7 +3,7 @@
 body{
 	background-color:#fff;
 	font-family: 'Noto Sans', sans-serif;
-	/*background-image:url('../images/zoho_template.png');*/
+	/*background:url('images/css_sprites.png')0 0;*/
 	background-repeat:no-repeat;
 	margin:0 auto;
 	background-position:top center;
@@ -21,7 +21,7 @@ body{
     font-size: 14px;
     font-weight: bold;
 	text-decoration:none;
-	
+	line-height: 32px;
 }
 
 .flex-header-left{
@@ -207,6 +207,7 @@ footer h5{
 }
 
 .search-box{
+	position: relative;
 	text-align:center;
 	padding-top: 40px;
 }
@@ -216,15 +217,31 @@ footer h5{
 	height:35px;
 	width:800px;
 	background-color:#333;
+	padding: 16px;
 }
 .material-symbols-outlined{
 	position: absolute;
     padding-top: 5px;
-    right: 344px;
+    right: 325px;
 }
 .icon{
 	position: absolute;
     padding-top: 5px;
     right: 131px;
-    top: 28px;
+    top: 36px;
+}
+.hyperlink{
+	text-decoration: none;
+    color: #fff;
+}
+
+footer .image-sprites{
+	
+	content: '';
+	position: absolute;
+    width: 120px;
+    height: 40px;
+	background-color:#fff;
+    top:50px;
+	left:50px;
 }
